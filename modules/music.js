@@ -126,7 +126,7 @@ module.exports = (client) => {
 					  .addField('Position', `Now`, true)
 					  .addField(`Video ID`, `${song.id}`, true)
 					  .addField(`Voice Channel`, `${song.voicechan}`, true)
-					  .setImage(`https://i.ytimg.com/vi/${song.id}/maxresdefault.jpg`, true)
+					  .setImage(`https://img.youtube.com/vi/${song.id}/maxresdefault.jpg`, true)
                       .setColor(`#8284f4`)
                       .setFooter(`© ${message.author.username} ${version}`, client.user.displayAvatarURL)
  if (!serverQueue.loop) return serverQueue.textChannel.send(emb);
